@@ -47,8 +47,8 @@ export class Client extends Discord.Client {
     this.logger = new Logger(this);
     this.manager = new Manager({
       nodes: [{
-        identifier: "Azure",
-        host: "20.52.20.131",
+        identifier: "DigitalOcean",
+        host: "165.22.108.12",
         password: "pass",
         port: 443,
         retryAmount: Infinity,
