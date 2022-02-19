@@ -48,7 +48,7 @@ export class Client extends Discord.Client {
     this.manager = new Manager({
       nodes: [{
         identifier: "DigitalOcean",
-        host: "165.22.108.12",
+        host: "159.223.69.177",
         password: "pass",
         port: 443,
         retryAmount: Infinity,
