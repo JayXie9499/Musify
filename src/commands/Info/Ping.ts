@@ -11,7 +11,7 @@ export const COMMAND: Command = {
       await pinging.edit({
         content: null,
         embeds: [{
-          description: `⌛ ${pinging.createdTimestamp - message.createdTimestamp}ms\n💓 ${client.ws.ping}ms`,
+          description: `⌛ ${pinging.createdTimestamp - message.createdTimestamp}ms\n\n💓 ${client.ws.ping}ms`,
           color: "RANDOM"
         }]
       });
