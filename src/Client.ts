@@ -47,10 +47,10 @@ export class Client extends Discord.Client {
     this.logger = new Logger(this);
     this.manager = new Manager({
       nodes: [{
-        identifier: "DigitalOcean",
-        host: "159.223.69.177",
-        password: "pass",
-        port: 443,
+        identifier: "localhost",
+        host: "localhost",
+        password: "youshallnotpass",
+        port: 2333,
         retryAmount: Infinity,
         retryDelay: 3
       }],
